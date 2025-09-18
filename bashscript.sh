@@ -5,7 +5,7 @@
 #Author : Girish 
 
 set -ix 
-
+#add to git 
 #Version - v1
 #
 ## This script will report aws resorce usage 
