@@ -15,7 +15,8 @@ echo "print list of s3 buckets"
 aws s3 ls
 
 #list EC2 instance
-### added comment for branch divison 
+### added comment for branch divison
+## added comment for the merge function  
 echo "print list of ec2 instancs"
 aws ec2 describe-instances | jq '.Reservations.[].Instances[].InstanceId'
 
